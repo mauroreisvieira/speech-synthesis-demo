@@ -7,7 +7,7 @@
         </select>
 
         <ul>
-            <li v-for="question in asks" v-html="question"></li>
+            <li v-for="(question, index) in asks" v-html="question" :key="index"></li>
         </ul>
 
         <button
