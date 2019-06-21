@@ -9,6 +9,10 @@
             "Pergunta-me: <strong>Que horas são?<strong>"
         ]
     },
+    "messages": {
+        "en-US": "I did not realize your question, you can repeat it?",
+        "pt-BR": "Não percebi a sua pergunta, pode repetir?"
+    },
     "button": {
         "en-US": "Click & Ask!",
         "pt-BR": "Clique & Pergunte!"

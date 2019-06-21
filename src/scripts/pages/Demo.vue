@@ -19,7 +19,7 @@
 
 <script>
     /* eslint-disable */
-    import { questions, button, time, day } from './../../model.json';
+    import { questions, messages, button, time, day } from './../../model.json';
 
     export default {
         data: function () {
@@ -52,6 +52,8 @@
                             month: 'long',
                             day: 'numeric'
                         }));
+                    } else {
+                        this.speech(messages[this.langSelected]);
                     }
 
                     this.btnDisabled = false;
@@ -59,8 +61,11 @@
             },
             speech(message) {
                 const utterance = new SpeechSynthesisUtterance(message)
-                utterance.lang = this.langSelected
-                speechSynthesis.speak(utterance)
+                utterance.lang = this.langSelected;
+                utterance.pitch = 1.5;
+                utterance.volume = 0.5;
+                utterance.rate = 8;
+                speechSynthesis.speak(utterance);
             }
         },
         watch: {
