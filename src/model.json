@@ -1,0 +1,25 @@
+{
+    "questions": {
+        "en-US": [
+            "Ask me: <strong>What day it is today?</strong>",
+            "Ask me: <strong>What time it is?</strong>"
+        ],
+        "pt-BR": [
+            "Pergunta-me: <strong>Que dia é hoje?</strong>",
+            "Pergunta-me: <strong>Que horas são?<strong>"
+        ]
+    },
+    "button": {
+        "en-US": "Click & Ask!",
+        "pt-BR": "Clique & Pergunte!"
+    },
+    "time": {
+        "en-US": "what time is it",
+        "pt-BR": "que horas são"
+    },
+    "day": {
+        "en-US": "what day is today",
+        "pt-BR": "que dia é hoje"
+    }
+}
+
