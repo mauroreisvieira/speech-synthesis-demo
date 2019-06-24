@@ -1,7 +1,7 @@
 <template>
     <div>
         <select v-model="langSelected">
-          <option value="" disabled>Please select langSelected</option>
+          <option value="" disabled>Please select language</option>
           <option value="en-US">English</option>
           <option value="pt-BR">Portuguese</option>
         </select>
